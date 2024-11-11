@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links de Contato - Marco Costa</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f4f8;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #1a73e8;
+      margin-bottom: 20px;
+    }
+
+    .link {
+      display: block;
+      text-decoration: none;
+      font-size: 18px;
+      color: #ffffff;
+      background-color: #1a73e8;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      transition: background-color 0.3s;
+    }
+
+    .link:hover {
+      background-color: #145aa3;
+    }
+
+    .link.instagram {
+      background-color: #8a3ab9;
+    }
+
+    .link.instagram:hover {
+      background-color: #6e2e92;
+    }
+
+    .link.whatsapp {
+      background-color: #25D366;
+    }
+
+    .link.whatsapp:hover {
+      background-color: #1ba94c;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Meus Contatos</h1>
+    <a href="https://www.linkedin.com/in/omarcocosta/" target="_blank" class="link">LinkedIn</a>
+    <a href="https://www.instagram.com/o_marcocosta" target="_blank" class="link instagram">Instagram</a>
+    <a href="https://wa.me/5535992249084" target="_blank" class="link whatsapp">WhatsApp</a>
+  </div>
+</body>
+
+</html>
